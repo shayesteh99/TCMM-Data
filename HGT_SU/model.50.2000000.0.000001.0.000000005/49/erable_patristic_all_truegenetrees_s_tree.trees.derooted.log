@@ -1,0 +1,43 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 15 has infinite distance (>= 4.5).
+Warning : Matrix 46 has infinite distance (>= 4.5).
+Warning : Matrix 47 has infinite distance (>= 4.5).
+Warning : Matrix 52 has infinite distance (>= 4.5).
+Warning : Matrix 98 has infinite distance (>= 4.5).
+Warning : Matrix 114 has infinite distance (>= 4.5).
+Warning : Matrix 201 has infinite distance (>= 4.5).
+Warning : Matrix 313 has infinite distance (>= 4.5).
+Warning : Matrix 321 has infinite distance (>= 4.5).
+Warning : Matrix 340 has infinite distance (>= 4.5).
+Warning : Matrix 352 has infinite distance (>= 4.5).
+Warning : Matrix 353 has infinite distance (>= 4.5).
+Warning : Matrix 404 has infinite distance (>= 4.5).
+Warning : Matrix 412 has infinite distance (>= 4.5).
+Warning : Matrix 461 has infinite distance (>= 4.5).
+Warning : Matrix 464 has infinite distance (>= 4.5).
+Warning : Matrix 480 has infinite distance (>= 4.5).
+Warning : Matrix 517 has infinite distance (>= 4.5).
+Warning : Matrix 522 has infinite distance (>= 4.5).
+Warning : Matrix 573 has infinite distance (>= 4.5).
+Warning : Matrix 677 has infinite distance (>= 4.5).
+Warning : Matrix 719 has infinite distance (>= 4.5).
+Warning : Matrix 720 has infinite distance (>= 4.5).
+Warning : Matrix 722 has infinite distance (>= 4.5).
+Warning : Matrix 743 has infinite distance (>= 4.5).
+Warning : Matrix 773 has infinite distance (>= 4.5).
+Warning : Matrix 816 has infinite distance (>= 4.5).
+Warning : Matrix 938 has infinite distance (>= 4.5).
+Warning : Matrix 975 has infinite distance (>= 4.5).
+Warning : Matrix 994 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.00446
+Rates writting.
+Branch lengths writting.
+
+Total time : 1270 mili seconds.
