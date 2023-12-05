@@ -1,0 +1,51 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 32 has infinite distance (>= 4.5).
+Warning : Matrix 40 has infinite distance (>= 4.5).
+Warning : Matrix 46 has infinite distance (>= 4.5).
+Warning : Matrix 53 has infinite distance (>= 4.5).
+Warning : Matrix 57 has infinite distance (>= 4.5).
+Warning : Matrix 65 has infinite distance (>= 4.5).
+Warning : Matrix 76 has infinite distance (>= 4.5).
+Warning : Matrix 110 has infinite distance (>= 4.5).
+Warning : Matrix 129 has infinite distance (>= 4.5).
+Warning : Matrix 138 has infinite distance (>= 4.5).
+Warning : Matrix 188 has infinite distance (>= 4.5).
+Warning : Matrix 189 has infinite distance (>= 4.5).
+Warning : Matrix 283 has infinite distance (>= 4.5).
+Warning : Matrix 301 has infinite distance (>= 4.5).
+Warning : Matrix 332 has infinite distance (>= 4.5).
+Warning : Matrix 369 has infinite distance (>= 4.5).
+Warning : Matrix 420 has infinite distance (>= 4.5).
+Warning : Matrix 433 has infinite distance (>= 4.5).
+Warning : Matrix 453 has infinite distance (>= 4.5).
+Warning : Matrix 455 has infinite distance (>= 4.5).
+Warning : Matrix 488 has infinite distance (>= 4.5).
+Warning : Matrix 502 has infinite distance (>= 4.5).
+Warning : Matrix 518 has infinite distance (>= 4.5).
+Warning : Matrix 639 has infinite distance (>= 4.5).
+Warning : Matrix 650 has infinite distance (>= 4.5).
+Warning : Matrix 657 has infinite distance (>= 4.5).
+Warning : Matrix 682 has infinite distance (>= 4.5).
+Warning : Matrix 698 has infinite distance (>= 4.5).
+Warning : Matrix 827 has infinite distance (>= 4.5).
+Warning : Matrix 834 has infinite distance (>= 4.5).
+Warning : Matrix 851 has infinite distance (>= 4.5).
+Warning : Matrix 898 has infinite distance (>= 4.5).
+Warning : Matrix 900 has infinite distance (>= 4.5).
+Warning : Matrix 903 has infinite distance (>= 4.5).
+Warning : Matrix 934 has infinite distance (>= 4.5).
+Warning : Matrix 953 has infinite distance (>= 4.5).
+Warning : Matrix 984 has infinite distance (>= 4.5).
+Warning : Matrix 995 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.00975
+Rates writting.
+Branch lengths writting.
+
+Total time : 1070 mili seconds.

@@ -1,0 +1,15 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 902 has infinite distance (>= 4.5).
+Warning : Matrix 968 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.02123
+Rates writting.
+Branch lengths writting.
+
+Total time : 1200 mili seconds.
