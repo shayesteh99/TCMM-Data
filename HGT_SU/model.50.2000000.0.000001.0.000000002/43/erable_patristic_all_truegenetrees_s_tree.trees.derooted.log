@@ -1,0 +1,67 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 18 has infinite distance (>= 4.5).
+Warning : Matrix 26 has infinite distance (>= 4.5).
+Warning : Matrix 34 has infinite distance (>= 4.5).
+Warning : Matrix 35 has infinite distance (>= 4.5).
+Warning : Matrix 60 has infinite distance (>= 4.5).
+Warning : Matrix 78 has infinite distance (>= 4.5).
+Warning : Matrix 141 has infinite distance (>= 4.5).
+Warning : Matrix 171 has infinite distance (>= 4.5).
+Warning : Matrix 186 has infinite distance (>= 4.5).
+Warning : Matrix 190 has infinite distance (>= 4.5).
+Warning : Matrix 216 has infinite distance (>= 4.5).
+Warning : Matrix 228 has infinite distance (>= 4.5).
+Warning : Matrix 321 has infinite distance (>= 4.5).
+Warning : Matrix 324 has infinite distance (>= 4.5).
+Warning : Matrix 325 has infinite distance (>= 4.5).
+Warning : Matrix 341 has infinite distance (>= 4.5).
+Warning : Matrix 358 has infinite distance (>= 4.5).
+Warning : Matrix 361 has infinite distance (>= 4.5).
+Warning : Matrix 365 has infinite distance (>= 4.5).
+Warning : Matrix 390 has infinite distance (>= 4.5).
+Warning : Matrix 394 has infinite distance (>= 4.5).
+Warning : Matrix 396 has infinite distance (>= 4.5).
+Warning : Matrix 398 has infinite distance (>= 4.5).
+Warning : Matrix 418 has infinite distance (>= 4.5).
+Warning : Matrix 420 has infinite distance (>= 4.5).
+Warning : Matrix 467 has infinite distance (>= 4.5).
+Warning : Matrix 506 has infinite distance (>= 4.5).
+Warning : Matrix 537 has infinite distance (>= 4.5).
+Warning : Matrix 561 has infinite distance (>= 4.5).
+Warning : Matrix 573 has infinite distance (>= 4.5).
+Warning : Matrix 580 has infinite distance (>= 4.5).
+Warning : Matrix 594 has infinite distance (>= 4.5).
+Warning : Matrix 633 has infinite distance (>= 4.5).
+Warning : Matrix 736 has infinite distance (>= 4.5).
+Warning : Matrix 774 has infinite distance (>= 4.5).
+Warning : Matrix 777 has infinite distance (>= 4.5).
+Warning : Matrix 793 has infinite distance (>= 4.5).
+Warning : Matrix 805 has infinite distance (>= 4.5).
+Warning : Matrix 809 has infinite distance (>= 4.5).
+Warning : Matrix 815 has infinite distance (>= 4.5).
+Warning : Matrix 822 has infinite distance (>= 4.5).
+Warning : Matrix 831 has infinite distance (>= 4.5).
+Warning : Matrix 832 has infinite distance (>= 4.5).
+Warning : Matrix 843 has infinite distance (>= 4.5).
+Warning : Matrix 853 has infinite distance (>= 4.5).
+Warning : Matrix 906 has infinite distance (>= 4.5).
+Warning : Matrix 926 has infinite distance (>= 4.5).
+Warning : Matrix 931 has infinite distance (>= 4.5).
+Warning : Matrix 947 has infinite distance (>= 4.5).
+Warning : Matrix 962 has infinite distance (>= 4.5).
+Warning : Matrix 976 has infinite distance (>= 4.5).
+Warning : Matrix 984 has infinite distance (>= 4.5).
+Warning : Matrix 991 has infinite distance (>= 4.5).
+Warning : Matrix 996 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.00995
+Rates writting.
+Branch lengths writting.
+
+Total time : 1240 mili seconds.

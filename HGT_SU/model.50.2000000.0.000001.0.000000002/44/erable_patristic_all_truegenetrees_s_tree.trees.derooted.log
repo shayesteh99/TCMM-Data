@@ -1,0 +1,19 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 72 has infinite distance (>= 4.5).
+Warning : Matrix 111 has infinite distance (>= 4.5).
+Warning : Matrix 122 has infinite distance (>= 4.5).
+Warning : Matrix 153 has infinite distance (>= 4.5).
+Warning : Matrix 297 has infinite distance (>= 4.5).
+Warning : Matrix 801 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.00687
+Rates writting.
+Branch lengths writting.
+
+Total time : 1350 mili seconds.
