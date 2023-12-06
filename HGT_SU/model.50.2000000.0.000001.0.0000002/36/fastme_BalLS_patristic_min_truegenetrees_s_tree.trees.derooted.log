@@ -1,0 +1,17 @@
+
+
+#  Analysing dataset 1
+
+ . Warning: Triangular inequality violation.
+
+ . You may ask for triangular inequality correction using the '-q' option.
+
+ . Reading input tree...
+
+ . Tree length is 0.121688.
+
+ . Warning: 
+	Explained variance = -0.103 (<0.90).
+	Check your input data.
+
+ . Time used 0h00m00s

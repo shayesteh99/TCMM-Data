@@ -1,0 +1,84 @@
+Reading command line.
+Tree reading.
+Matrices reading.
+Warning : Matrix 4 has infinite distance (>= 4.5).
+Warning : Matrix 5 has infinite distance (>= 4.5).
+Warning : Matrix 10 has infinite distance (>= 4.5).
+Warning : Matrix 13 has infinite distance (>= 4.5).
+Warning : Matrix 15 has infinite distance (>= 4.5).
+Warning : Matrix 19 has infinite distance (>= 4.5).
+Warning : Matrix 25 has infinite distance (>= 4.5).
+Warning : Matrix 32 has infinite distance (>= 4.5).
+Warning : Matrix 51 has infinite distance (>= 4.5).
+Warning : Matrix 66 has infinite distance (>= 4.5).
+Warning : Matrix 79 has infinite distance (>= 4.5).
+Warning : Matrix 81 has infinite distance (>= 4.5).
+Warning : Matrix 93 has infinite distance (>= 4.5).
+Warning : Matrix 95 has infinite distance (>= 4.5).
+Warning : Matrix 99 has infinite distance (>= 4.5).
+Warning : Matrix 101 has infinite distance (>= 4.5).
+Warning : Matrix 108 has infinite distance (>= 4.5).
+Warning : Matrix 142 has infinite distance (>= 4.5).
+Warning : Matrix 150 has infinite distance (>= 4.5).
+Warning : Matrix 151 has infinite distance (>= 4.5).
+Warning : Matrix 167 has infinite distance (>= 4.5).
+Warning : Matrix 168 has infinite distance (>= 4.5).
+Warning : Matrix 171 has infinite distance (>= 4.5).
+Warning : Matrix 177 has infinite distance (>= 4.5).
+Warning : Matrix 205 has infinite distance (>= 4.5).
+Warning : Matrix 207 has infinite distance (>= 4.5).
+Warning : Matrix 209 has infinite distance (>= 4.5).
+Warning : Matrix 245 has infinite distance (>= 4.5).
+Warning : Matrix 253 has infinite distance (>= 4.5).
+Warning : Matrix 264 has infinite distance (>= 4.5).
+Warning : Matrix 271 has infinite distance (>= 4.5).
+Warning : Matrix 277 has infinite distance (>= 4.5).
+Warning : Matrix 303 has infinite distance (>= 4.5).
+Warning : Matrix 304 has infinite distance (>= 4.5).
+Warning : Matrix 337 has infinite distance (>= 4.5).
+Warning : Matrix 342 has infinite distance (>= 4.5).
+Warning : Matrix 357 has infinite distance (>= 4.5).
+Warning : Matrix 380 has infinite distance (>= 4.5).
+Warning : Matrix 404 has infinite distance (>= 4.5).
+Warning : Matrix 415 has infinite distance (>= 4.5).
+Warning : Matrix 442 has infinite distance (>= 4.5).
+Warning : Matrix 467 has infinite distance (>= 4.5).
+Warning : Matrix 493 has infinite distance (>= 4.5).
+Warning : Matrix 501 has infinite distance (>= 4.5).
+Warning : Matrix 507 has infinite distance (>= 4.5).
+Warning : Matrix 515 has infinite distance (>= 4.5).
+Warning : Matrix 538 has infinite distance (>= 4.5).
+Warning : Matrix 540 has infinite distance (>= 4.5).
+Warning : Matrix 554 has infinite distance (>= 4.5).
+Warning : Matrix 565 has infinite distance (>= 4.5).
+Warning : Matrix 569 has infinite distance (>= 4.5).
+Warning : Matrix 579 has infinite distance (>= 4.5).
+Warning : Matrix 611 has infinite distance (>= 4.5).
+Warning : Matrix 671 has infinite distance (>= 4.5).
+Warning : Matrix 713 has infinite distance (>= 4.5).
+Warning : Matrix 759 has infinite distance (>= 4.5).
+Warning : Matrix 768 has infinite distance (>= 4.5).
+Warning : Matrix 817 has infinite distance (>= 4.5).
+Warning : Matrix 823 has infinite distance (>= 4.5).
+Warning : Matrix 836 has infinite distance (>= 4.5).
+Warning : Matrix 843 has infinite distance (>= 4.5).
+Warning : Matrix 856 has infinite distance (>= 4.5).
+Warning : Matrix 858 has infinite distance (>= 4.5).
+Warning : Matrix 878 has infinite distance (>= 4.5).
+Warning : Matrix 938 has infinite distance (>= 4.5).
+Warning : Matrix 948 has infinite distance (>= 4.5).
+Warning : Matrix 971 has infinite distance (>= 4.5).
+Warning : Matrix 973 has infinite distance (>= 4.5).
+Warning : Matrix 975 has infinite distance (>= 4.5).
+Warning : Matrix 983 has infinite distance (>= 4.5).
+Warning : Matrix 1000 has infinite distance (>= 4.5).
+Weigths reading.
+Wseq weights
+Constraint nksumdist
+System construction.
+System resolution (ldlt method).
+Correction factor : 1.0254
+Rates writting.
+Branch lengths writting.
+
+Total time : 810 mili seconds.
