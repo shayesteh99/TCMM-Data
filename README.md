@@ -2,7 +2,7 @@
 
 
 ## 1) S100 Dataset (Tabatabaee et al. 2023):
-The original dataset is available at [Google Drive](https://drive.google.com/file/d/13ZrOhOliKCEpXebBlMg01WlRTGmnCXza/view). We provide the results of our experiments in the `TCMM-ASTRAL-SU-Results` directory.
+The original dataset is available at [https://github.com/ytabatabaee/CASTLES-paper](https://github.com/ytabatabaee/CASTLES-paper). We provide the results of our experiments in the `TCMM-ASTRAL-SU-Results` directory.
 
 Here is the description of each file in this directory:
 - `TCMM-ASTRAL-SU-Results/*/truegenetrees`: True gene trees for each replicate.
