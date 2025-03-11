@@ -45,19 +45,19 @@ Here is the description of each file in this directory:
 ## Outlier Detection:
 
 ### 1) S100 Dataset (Tabatabaee et al. 2023):
-The outlier detection results for the S100 dataset are provided in `TCMM-ASTRAL-SU-Results/*/outlier_detection` directories. Here is a description of each file in these directories:
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100`: The first 100 true gene trees.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_[length]_non_100`: The first 100 estimated gene trees from `length`bp-long sequences.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100_lam_[lambda].trees`: Modified true gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100`.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_400_non_100_lam_0.00001.trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_[length]_non_100`.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TCMM_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TCMM.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TCMM_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TCMM.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TreeShrink_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TreeShrink.
-- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TreeShrink_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TreeShrink.
+The outlier detection results for the S100 dataset are provided in the `TCMM-ASTRAL-Outlier-Results` directory. Here is a description of each file in this directory:
+- `TCMM-ASTRAL-Outlier-Results/*/truegenetrees_100`: The first 100 true gene trees.
+- `TCMM-ASTRAL-Outlier-Results/*/fasttree_genetrees_[length]_non_100`: The first 100 estimated gene trees from `length`bp-long sequences.
+- `TCMM-ASTRAL-Outlier-Results/*/truegenetrees_100_lam_[lambda].trees`: Modified true gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100`.
+- `TCMM-ASTRAL-Outlier-Results/*/fasttree_genetrees_[length]_non_100_lam_[lambda].trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_[length]_non_100`.
+- `TCMM-ASTRAL-Outlier-Results/*/TCMM_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TCMM.
+- `TCMM-ASTRAL-Outlier-Results/*/TCMM_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TCMM.
+- `TCMM-ASTRAL-Outlier-Results/*/TreeShrink_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TreeShrink.
+- `TCMM-ASTRAL-Outlier-Results/*/TreeShrink_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TreeShrink.
 
 ### 2) TreeShrink Dataset (Mai and Mirarab 2018):
 The original dataest can be found at [https://github.com/uym2/TreeShrink](https://github.com/uym2/TreeShrink). The results of TCMM outlier detection can be found in the `TreeShrink_data` directory. This directory contains six biological datasets: `TreeShrink_data/Plants`, `TreeShrink_data/Mammals`, `TreeShrink_data/Frogs`, `TreeShrink_data/Insects`, `TreeShrink_data/XenRouse`, and `TreeShrink_data/XenCannon`. Here is a description of each file in these directories:
 - `TreeShrink_data/[data]/unfiltered.trees`: Estimated gene trees.
-- `TreeShrink_data/[data]/gene_vs_gene_unfiltered_lam_0.01.trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TreeShrink_data/[data]/unfiltered.trees`.
+- `TreeShrink_data/[data]/gene_vs_gene_unfiltered_lam_[lambda].trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TreeShrink_data/[data]/unfiltered.trees`.
 - `TreeShrink_data/[data]/TCMM_outliers.csv`: Detected outliers for the modified estimated gene trees by TCMM.
 - `TreeShrink_data/[data]/TreeShrink_outliers.txt`: Detected outliers for the modified estimated gene trees by TreeShrink.
