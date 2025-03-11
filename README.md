@@ -1,7 +1,7 @@
 # Topology-Constrained Metric Matching (TCMM) Data Repository
 
-
-## 1) S100 Dataset (Tabatabaee et al. 2023):
+## Branch Length Estimation:
+### 1) S100 Dataset (Tabatabaee et al. 2023):
 The original dataset is available at [https://github.com/ytabatabaee/CASTLES-paper](https://github.com/ytabatabaee/CASTLES-paper). We provide the results of our experiments in the `TCMM-ASTRAL-SU-Results` directory.
 
 Here is the description of each file in this directory:
@@ -14,7 +14,7 @@ Here is the description of each file in this directory:
 - `TCMM-ASTRAL-SU-Results/*/TCMM_castlespro_fasttree_genetrees_[length]_non_s_tree_lam_[lambda].trees`: Estimated species tree with SU branch lengths assigned by TCMM (lambda = `[lambda]`). The input species tree and gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/castlespro_fasttree_genetrees_[length]_non_s_tree.trees` and `TCMM-ASTRAL-SU-Results/*/fasttree_genetrees_[length]_non`, respectively.
 - `TCMM-ASTRAL-SU-Results/*/TCMM_castlespro_fasttree_genetrees_[length]_non_s_tree_lam_best.trees`: Estimated species tree with SU branch lengths assigned by TCMM (automatic lambda selection). The input species tree and gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/castlespro_fasttree_genetrees_[length]_non_s_tree.trees` and `TCMM-ASTRAL-SU-Results/*/fasttree_genetrees_[length]_non`, respectively.
 
-## 2) HGT Dataset:
+### 2) HGT Dataset:
 The results of the simulated dataset is provided in the `TCMM-HGT-SU-Results`.
 
 Here is the description of each file in this directory:
@@ -23,7 +23,7 @@ Here is the description of each file in this directory:
 - `TCMM-HGT-SU-Results/[model]/*/TCMM_castlespro_estimatedgenetre_lam_[lambda].trees`: Species tree with SU branch lengths assigned by TCMM (lambda = `[lambda]`). The input species tree and gene trees to TCMM are `TCMM-HGT-SU-Results/[model]/*/castlespro_estimatedgenetre_s_tree.trees` and `TCMM-HGT-SU-Results/[model]/*/estimatedgenetre`, respectively.
 - `TCMM-HGT-SU-Results/[model]/*/TCMM_castlespro_estimatedgenetre_lam_best.trees`: Species tree with SU branch lengths assigned by TCMM (lambda = automatic lambda selection). The input species tree and gene trees to TCMM are `TCMM-HGT-SU-Results/[model]/*/castlespro_estimatedgenetre_s_tree.trees` and `TCMM-HGT-SU-Results/[model]/*/estimatedgenetre`, respectively.
 
-## 3) Bacterial Dataset (Moody et al. 2022):
+### 3) Bacterial Dataset (Moody et al. 2022):
 The results of the prokaryotic dataset is provided in the `bacterial_dataset` directory. The original dataset can be found at [https://doi.org/10.6084/m9.figshare.13395470](https://doi.org/10.6084/m9.figshare.13395470).
 
 Here is the description of each file in this directory:
@@ -34,10 +34,23 @@ Here is the description of each file in this directory:
 - `bacterial_dataset/per_gene_castles_pro_core_genes_lam_[lambda].trees`: Estimated species tree from core gene trees with SU branch lengths assigned by TCMM (lambda = `[lambda]`). The input species tree and gene trees to TCMM are `bacterial_dataset/castles_pro_core_genes.tre` and `bacterial_dataset/core_genes.tre`, respectively.
 - `bacterial_dataset/per_gene_castles_pro_non_ribosomal_genes_lam_[lambda].trees`: Estimated species tree from non-ribosomal gene trees with SU branch lengths assigned by TCMM (lambda = `[lambda]`). The input species tree and gene trees to TCMM are `bacterial_dataset/castles_pro_non_ribosomal.tre` and `bacterial_dataset/non_ribosomal_genes.tre`, respectively.
 
-## 4) WoL Dataset (Zhu et al. 2019):
+### 4) WoL Dataset (Zhu et al. 2019):
 The results of the WoL dataset is provided in the `WoL` directory. The original dataest can be found at [https://github.com/biocore/wol/tree/master/data](https://github.com/biocore/wol/tree/master/data).
 
 Here is the description of each file in this directory:
 - `WoL/castles_pro_wol.tre`: Estimated species tree with SU branch lengths assigned by CASTLES-Pro.
 - `WoL/genetrees/p[geneID].nwk`: Estimated individual gene trees.
 - `WoL/TCMM-results/p[geneID]_lam_[lambda].trees`: Estimated species tree with SU branch lengths assigned by TCMM (lambda = `[lambda]`). The input species tree and gene trees to TCMM are `WoL/castles_pro_wol.tre` and `WoL/genetrees/p[geneID].nwk`, respectively.
+
+## Outlier Detection:
+
+### 1) S100 Dataset (Tabatabaee et al. 2023):
+The outlier detection results for the S100 dataset are provided in `TCMM-ASTRAL-SU-Results/*/outlier_detection` directories. Here is a description of each file in these directories:
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100`: The first 100 true gene trees.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_[length]_non_100`: The first 100 estimated gene trees from `length`bp-long sequences.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100_lam_[lambda].trees`: Modified true gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/truegenetrees_100`.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_400_non_100_lam_0.00001.trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TCMM-ASTRAL-SU-Results/*/outlier_detection/fasttree_genetrees_[length]_non_100`.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TCMM_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TCMM.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TCMM_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TCMM.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TreeShrink_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TreeShrink.
+- `TCMM-ASTRAL-SU-Results/*/outlier_detection/TreeShrink_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TreeShrink.
