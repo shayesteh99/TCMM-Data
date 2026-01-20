@@ -44,7 +44,17 @@ Here is the description of each file in this directory:
 
 ## Outlier Detection:
 
-### 1) S100 Dataset (Tabatabaee et al. 2023):
+### 1) S200-perturbed Dataset:
+The outlier detection results for this dataset are provided in `S200-perturbed` directory. Here is a description of each file in this directory:
+- `S200-perturbed/true_outliers.txt`: The ground truth outliers for this dataset. Columns are replicate, gene tree, and species, respectively.
+- `S200-perturbed/outliers_gene_vs_gene_k1.5.csv`: The outliers outputted by PhylteR and TCMM+PhylteR for k=1.5 (the value used in the paper).
+- `S200-perturbed/TreeShrink_outliers.txt`: The outliers reported by TreeShrink.
+- `S200-perturbed/*/s_tree.tree`: True species tree in the unit of number of generations.
+- `S200-perturbed/*/truegenetrees_100`: True gene trees (the first 100 from the original dataset).
+- `S200-perturbed/*/modifiedTrees_100`: Modified gene trees after introducing outliers.
+- `S200-perturbed/*/modifiedTrees_100_lam_[lambda].trees`: TCMM output on modeified gene trees (lambda = [lambda]). Note that [lambda] = true means original gene trees before running TCMM.
+
+### 2) S100 Dataset (Tabatabaee et al. 2023):
 The outlier detection results for the S100 dataset are provided in the `TCMM-ASTRAL-Outlier-Results` directory. Here is a description of each file in this directory:
 - `TCMM-ASTRAL-Outlier-Results/*/truegenetrees_100`: The first 100 true gene trees.
 - `TCMM-ASTRAL-Outlier-Results/*/fasttree_genetrees_[length]_non_100`: The first 100 estimated gene trees from `length`bp-long sequences.
@@ -55,7 +65,7 @@ The outlier detection results for the S100 dataset are provided in the `TCMM-AST
 - `TCMM-ASTRAL-Outlier-Results/*/TreeShrink_outliers_truegenetrees.csv`: Detected outliers for the modified true gene trees by TreeShrink.
 - `TCMM-ASTRAL-Outlier-Results/*/TreeShrink_outliers_fasttreegenetrees.csv`: Detected outliers for the modified estimated gene trees by TreeShrink.
 
-### 2) TreeShrink Dataset (Mai and Mirarab 2018):
+### 3) TreeShrink Dataset (Mai and Mirarab 2018):
 The original dataest can be found at [https://github.com/uym2/TreeShrink](https://github.com/uym2/TreeShrink). The results of TCMM outlier detection can be found in the `TreeShrink_data` directory. This directory contains six biological datasets: `TreeShrink_data/Plants`, `TreeShrink_data/Mammals`, `TreeShrink_data/Frogs`, `TreeShrink_data/Insects`, `TreeShrink_data/XenRouse`, and `TreeShrink_data/XenCannon`. Here is a description of each file in these directories:
 - `TreeShrink_data/[data]/unfiltered.trees`: Estimated gene trees.
 - `TreeShrink_data/[data]/gene_vs_gene_unfiltered_lam_[lambda].trees`: Modified estimated gene trees by TCMM (lambda = [lambda]). The input gene trees to TCMM are `TreeShrink_data/[data]/unfiltered.trees`.
