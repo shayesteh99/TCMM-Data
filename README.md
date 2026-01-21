@@ -17,7 +17,15 @@ Here is the description of each file in this directory:
 ### 2) S100 Dataset (Extended model conditions):
 This dataset is an extended version of the S100 Dataset to include more model conditions. There are six model conditions in this dataset (`ASTRALIII-lowILS`, `ASTRALIII-medILS`, `ASTRALIII-hiILS`, `ASTRALIII-medILSHighHet`, `ASTRALIII-medILSHighHetHg0`, and `ASTRALIII-medILSHighHetHg2.5`). All model conditions are in `ASTRALIII-extended` directory. 
 Here is the description of each file in this directory:
-
+- `ASTRALIII-extended/[model]/[model].command`: The Simphy command used to simulate the dataset.
+- `ASTRALIII-extended/[model]/[model].params`: The parameters used in the Simphy simulation.
+- `ASTRALIII-extended/[model]/*/s_tree.trees`: True species tree in substitution unit.
+- `ASTRALIII-extended/[model]/*/truegenetrees`: True gene trees.
+- `ASTRALIII-extended/[model]/*/castles-pro_truegenetrees_s_tree.trees`: CASTLES-Pro species tree with estimated branch lengths in substitution unit.
+- `ASTRALIII-extended/[model]/*/erable_s_tree.trees.length.nwk`: ERaBLE species tree with estimated branch lengths in substitution unit.
+- `ASTRALIII-extended/[model]/*/fastme-2.1.6.2_s_tree.trees`: FastME species tree with estimated branch lengths in substitution unit.
+- `ASTRALIII-extended/[model]/*/TCMM_castlespro/TCMM_castlespro_truegenetrees_lam_[lambda].trees`: TCMM species tree with estimated branch lengths in substitution unit for each gene tree using lambda=[lambda].
+- `ASTRALIII-extended/[model]/*/TCMM_castlespro/trunc_jenks_mean_castles_pro_results_lam_[lambda].trees`: TCMM species tree with estimated branch lengths in substitution unit after outlier removal and summarization for lambda=[lambda].
 
 ### 3) HGT Dataset:
 The results of the simulated dataset is provided in the `TCMM-HGT-SU-Results`.
